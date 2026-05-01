@@ -1,0 +1,8 @@
+archivo = open(".\\archivos\\U.txt", "a")
+texto = input("ingresar una frase: ")
+edad = int(input("ingresa tu edad:" ))
+estatura = float(input("ingresar estatura: "))
+archivo.write(texto)
+archivo.write(f"{edad}")
+archivo.write(str(estatura)+"\n")
+archivo.close() 
